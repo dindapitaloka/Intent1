@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class HasilActivity extends AppCompatActivity {
+public class activity_hasil extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,7 +15,7 @@ public class HasilActivity extends AppCompatActivity {
         findViewById(R.id.buttonHitung).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(HasilActivity.this, HasilActivity.class));
+                startActivity(new Intent(activity_hasil.this, activity_hasil.class));
             }
         });
     }
